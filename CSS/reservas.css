@@ -1,0 +1,256 @@
+body{
+    font-family: sans-serif;
+    background-color: #FEFAE0;
+    height: 870px;
+    overflow: hidden;
+}
+select{
+    border-radius: 6px;
+    font-size: 17px;
+    background-color: #dda15e !important;
+    border-color: 1px solid #dda15e !important;
+    font-weight: bold;
+    height: 37px;
+    width: 100%;
+    margin-right: 50px;
+    transition:1s;
+}
+.td-ubi{
+    padding-right:25px;
+    transition:1s;
+    
+}
+.td-espacio{
+    width: 25px;
+    transition:1s;
+}
+.td-nombres{
+    color: black;
+    font-size:21px;
+    font-weight:bold;
+    transition:1s;
+}
+.prueba{
+    border-radius: 10px;
+    background-color: rgb(233, 233, 233);
+}
+.contenido{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    font-size: 16.5px;
+    transition:1s;
+
+}
+.titulo-recurso{
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    right: 0px;
+    padding-left: 5%;
+    font-size:35px;
+    font-weight:bolder;
+    height:50px;
+}
+.tabla-contenido{
+    width: 70%;
+
+
+}
+.div-tabla{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    height: 210px;
+    display: flex;
+    justify-content: center;
+
+}
+.div-recurso{
+    position: absolute;
+    top: 35px;
+    left: 3%;
+}
+.cabecera{
+    height: 50px;
+}
+
+.desplegables{
+    position: fixed;
+    top: 0px;
+    height: 150px;
+    left: 0px;
+    right: 0px;
+    background: #606C38;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+.nombre_usuario{
+    font-weight: bold;
+    font-size: 13px;
+    position: absolute;
+    margin-right: 80%;
+    margin-bottom: 130px;
+}
+
+#tabla{
+    padding-top: 50px;
+    margin: 10px;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+    left: 0px;
+    border-radius: 20px;
+}
+.subtabla1{
+    position: absolute;
+    left: 0px;
+    right: 50%;
+    top: 77px;
+    height: 325px;
+    justify-content: center ;
+    position: absolute;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+.subtabla2{
+    position: absolute;
+    right: 5%;
+    left: 50%;
+    top: 90px;
+    justify-content: center ;
+    padding-top: 30px;
+    padding-left: 3%;
+    border-radius: 15px;
+    background-color: #faedcd;
+    height:300px;
+    overflow:auto;
+    text-overflow: ellipsis;
+    padding-right: 2%;
+    transition:1s;
+}
+.td-imagen{
+    height: 325px;
+}
+.imagen-recurso{
+    border-radius:20px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
+#titulo-reservas{
+    position: absolute;
+    top: 325px;
+    left: 10px;
+    right: 0px;
+    padding-left: 5%;
+    font-size:35px;
+    font-weight:bolder;
+    height:50px;
+    transition: 1s;
+}
+
+#subtabla3{
+    position: absolute;
+    right: 5%;
+    left: 5%;
+    top: 375px;
+    justify-content: center ;
+    background-color: #faedcd !important;
+    padding-top: 30px;
+    padding-left: 3%;
+    border-radius: 15px;
+    height:200px;
+    overflow:auto;
+    
+    padding-right: 2%;
+    transition:1s;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.contenido_tabla{
+    margin-bottom: 10px;
+}
+.tabla-desplegables{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 35px;
+    margin-left: 5%;
+    margin-right: 5%;
+    transition: 1s;
+    
+}
+
+#sin-seleccion{
+    position:fixed;
+    top: 200px;
+    left: 10%;
+    right: 10%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #faedcd;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+
+#cerrarSES {
+  align-items: center;
+  background-color: #FFE7E7;
+  background-position: 0 0;
+  border: 1px solid #FEE0E0;
+  border-radius: 11px;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 33.4929px;
+  list-style: outside url(https://www.smashingmagazine.com/images/bullet.svg) none;
+  margin-bottom: 105px;
+  margin-left: 900px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+  text-underline-offset: 1px;
+  transition: border .2s ease-in-out,box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  word-break: break-word;
+}
+
+#opcionesres{
+    display: block;
+    margin-left: 70px;
+
+    
+}
+.dropdown-menu{
+    background-color: #dda15e !important;
+    border-color: 1px solid #dda15e !important;
+}
+
+#msOPC{
+    background-color: #dda15e !important;
+    font-weight: bolder;
+}
+
+#divOpciones{
+    margin-left: 70px;
+    border-radius: 12px;
+}
